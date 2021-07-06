@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Montserrat:ital@1&family=Nunito&family=Poppins&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: #36498F;
+  --blue-green: #2D7C9D;
+}
+
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#img-hero-mobile {
+  width: 100%;
+}
+
+#mf-logo {
+  max-width: 40px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+#log-in-btn {
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+#title-div {
+  width: 250px;
+  position: absolute;
+  left: 20px;
+  top: 15%;
+}
+
+#title-div h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#title-div p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+#call-to-action {
+  background-color: var(--blue-green);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+}
