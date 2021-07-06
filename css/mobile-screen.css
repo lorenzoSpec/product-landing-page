@@ -12,14 +12,20 @@
   --blue-green: #2D7C9D;
 }
 
-#header {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+/* ===========================================
 
-#img-hero-mobile {
+    HERO SECTION
+
+   ===========================================*/
+
+#header {
   width: 100%;
+  height: 100vh;
+  background-image: url("../img/img-hero-mobile.jpg");
+  background-color: var(--blue);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #mf-logo {
@@ -40,8 +46,8 @@
 #title-div {
   width: 250px;
   position: absolute;
-  left: 20px;
-  top: 15%;
+  top: 100px;
+  left: 10px;
 }
 
 #title-div h1 {
@@ -49,6 +55,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: 900;
+  margin-bottom: 15px;
 }
 
 #title-div p {
@@ -56,15 +63,20 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 12px;
+  margin-bottom: 15px;
+}
+
+#mark {
+  background-color: var(--blue-green);
+  color: white;
 }
 
 #call-to-action {
-  background-color: var(--blue-green);
+  background-color: var(--blue);
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   border: none;
   border-radius: 5px;
   padding: 10px;
-  margin-top: 5px;
 }

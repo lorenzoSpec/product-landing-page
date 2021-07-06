@@ -1,0 +1,36 @@
+@media (min-width: 426px) and (max-width: 768px) {
+
+  /* ===========================================
+
+    HERO SECTION
+
+   ===========================================*/
+
+  #header {
+    background-image: url("../img/img-hero-tablet.jpg");
+  }
+
+  #log-in-btn {
+    right: 20px;
+    top: 10px;
+    opacity: 0.8;
+  }
+
+  #title-div {
+    width: 340px;
+    left: 30px;
+  }
+
+  #title-div h1 {
+    font-size: 50px;
+  }
+
+  #title-div p {
+    font-size: 16px;
+  }
+
+  #call-to-action {
+    padding: 10px;
+    font-size: 18px;
+  }
+}
