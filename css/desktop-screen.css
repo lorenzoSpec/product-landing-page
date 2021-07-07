@@ -1,0 +1,45 @@
+@media (min-width: 1280px) and (max-width: 1920px){
+  /* ===========================================
+
+    HERO SECTION
+
+  ===========================================*/
+
+  #header {
+    background-image: url("../img/1920-1080.jpg");
+  }
+
+  #mf-logo {
+    max-width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  #log-in-btn {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  #title-div {
+    width: 60%;
+    margin-left: 100px;
+  }
+
+  #title-div h1 {
+    font-size: 100px;
+  }
+
+  #title-div p {
+    font-size: 20px;
+  }
+
+  #call-to-action {
+    font-size: 30px;
+    align-self: flex-start;
+    position: static;
+    left: 0;
+    transform: translateX(0);
+    padding: 10px;
+    margin-top: 20px;
+  }
+}
