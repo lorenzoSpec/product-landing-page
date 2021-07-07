@@ -1,36 +1,76 @@
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 601px) and (max-width: 961px) {
 
   /* ===========================================
 
     HERO SECTION
 
-   ===========================================*/
+  ===========================================*/
 
   #header {
-    background-image: url("../img/img-hero-tablet.jpg");
+    background-image: url("../img/601-962.png");
+  }
+
+  #mf-logo {
+    max-width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
   }
 
   #log-in-btn {
-    right: 20px;
-    top: 10px;
-    opacity: 0.8;
-  }
-
-  #title-div {
-    width: 340px;
-    left: 30px;
+    font-family: 'Nunito', sans-serif;
   }
 
   #title-div h1 {
-    font-size: 50px;
+    font-size: 110px;
   }
 
   #title-div p {
-    font-size: 16px;
+    font-size: 30px;
   }
 
   #call-to-action {
+    font-size: 35px;
+    align-self: flex-start;
+    position: static;
+    left: 0;
+    transform: translateX(0);
     padding: 10px;
-    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 962px) and (max-width: 1279px) {
+  #header {
+    background-image: url("../img/962-601.png");
+  }
+
+  #mf-logo {
+    max-width: 50px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  #log-in-btn {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  #title-div h1 {
+    font-size: 90px;
+  }
+
+  #title-div p {
+    font-size: 20px;
+  }
+
+  #call-to-action {
+    font-size: 30px;
+    align-self: flex-start;
+    position: static;
+    left: 0;
+    transform: translateX(0);
+    padding: 10px;
+    margin-top: 20px;
   }
 }
