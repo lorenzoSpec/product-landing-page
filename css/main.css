@@ -158,6 +158,79 @@
 
 /* ===========================================
 
+    PEOPLE PROOF
+
+   ===========================================*/
+
+#people-proof{
+  background-color: #eee;
+  width: 100%;
+  padding-top: 50px;
+  margin: 100px 0;
+}
+
+#individual {
+  width: 100%;
+  margin: auto;
+}
+
+#pp-pic-div {
+  width: 100%;
+  position: relative;
+}
+
+#pp-pic-div img {
+  width: 100%;
+  margin: auto;
+}
+
+#pp-pic-div p {
+  background-color: rgba(0, 0, 0, 0.39);
+  color: white;
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#arrows {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#arrows i {
+  color: var(--blue-green);
+  font-size: 30px;
+  margin: 10px 20px;
+  transition: all 0.2s linear;
+}
+
+#arrows i:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#where-idfier {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#where-idfier div{
+  margin: 3px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #36498F;
+  border-radius: 50%;
+}
+
+/* ===========================================
+
     FAQ
 
    ===========================================*/
