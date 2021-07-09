@@ -12,8 +12,6 @@ function benifitSlider(){
       benifitsDivs[i].classList.add('benifits-s');
     }
   }
-
-  console.log(topData);
 }
 
 window.addEventListener('scroll', benifitSlider);
