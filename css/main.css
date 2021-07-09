@@ -158,6 +158,66 @@
 
 /* ===========================================
 
+    FAQ
+
+   ===========================================*/
+
+#faq {
+  max-width: 90%;
+  margin: 30px 5%;
+}
+
+#faq h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.question {
+  width: 100%;
+  background-color: #eee;
+  margin: 10px 0;
+}
+
+.q-div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  border-bottom: 1px solid #2D7C9D;
+}
+
+.q-div p {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.q-div i {
+  color: var(--blue-green);
+  margin: 5px;
+  transition: all 0.2s linear;
+}
+
+.q-div i:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.answer-div {
+  width: 100%;
+  padding: 5px;
+}
+
+.answer-div p {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  opacity: 0.9;
+}
+
+/* ===========================================
+
     CALL TO ACTION 2
 
    ===========================================*/
