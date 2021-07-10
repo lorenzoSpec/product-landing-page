@@ -158,6 +158,139 @@
 
 /* ===========================================
 
+    PEOPLE PROOF
+
+   ===========================================*/
+
+#people-proof{
+  background-color: #eee;
+  width: 100%;
+  padding-top: 50px;
+  margin: 100px 0;
+}
+
+#individual {
+  width: 100%;
+  margin: auto;
+}
+
+#pp-pic-div {
+  width: 100%;
+  position: relative;
+}
+
+#pp-pic-div img {
+  width: 100%;
+  margin: auto;
+}
+
+#pp-pic-div p {
+  background-color: rgba(0, 0, 0, 0.39);
+  color: white;
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#arrows {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#arrows i {
+  color: var(--blue-green);
+  font-size: 30px;
+  margin: 10px 20px;
+  transition: all 0.2s linear;
+}
+
+#arrows i:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#where-idfier {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#where-idfier div{
+  margin: 3px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #36498F;
+  border-radius: 50%;
+}
+
+/* ===========================================
+
+    FAQ
+
+   ===========================================*/
+
+#faq {
+  max-width: 90%;
+  margin: 30px 5%;
+}
+
+#faq h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.question {
+  width: 100%;
+  background-color: #eee;
+  margin: 10px 0;
+}
+
+.q-div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  border-bottom: 1px solid #2D7C9D;
+}
+
+.q-div p {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.q-div i {
+  color: var(--blue-green);
+  margin: 5px;
+  transition: all 0.2s linear;
+}
+
+.q-div i:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.answer-div {
+  width: 100%;
+  padding: 5px;
+}
+
+.answer-div p {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  opacity: 0.9;
+}
+
+/* ===========================================
+
     CALL TO ACTION 2
 
    ===========================================*/
